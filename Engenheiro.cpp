@@ -2,7 +2,7 @@
 #include "Empregado.hpp"
 #include "Engenheiro.hpp"
 
-Engenheiro::Engenheiro(std::string nomeI, int projetosI, double salarioHoraI){
+Engenheiro::Engenheiro(std::string nomeI, double salarioHoraI , int projetosI){
     nome = nomeI;
     projetos = projetosI;
     salarioHora = salarioHoraI;
