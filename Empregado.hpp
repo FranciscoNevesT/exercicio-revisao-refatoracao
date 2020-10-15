@@ -8,6 +8,7 @@ class Empregado {
   private:
     double salarioHora;
     double quotaMensalVendas;
+    int i;
 
 
   public:
