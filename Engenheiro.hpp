@@ -10,13 +10,12 @@ class Engenheiro : public Empregado {
 	  int projetos;
 
   public:
-    Engenheiro(std::string nomeI, double salarioHoraI , int projetosI );
+    Engenheiro(std::string nomeI, double salarioHoraI , int projetosI, double horasTI );
 
     friend std::ostream &operator<<(std::ostream &output, Engenheiro *&eng ) { 
         output << "Nome: " << eng->nome << std::endl;
-        output << "Salario Mes: " << eng->pagamentoMes(9.5) << std::endl;
+        output << "Salario Mes: " << eng->pagamentoMes(eng->horasT) << std::endl;
         output << "Projetos: " << eng->projetos << std::endl;
-        output << std::endl;
         return output;            
     }
 	

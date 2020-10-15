@@ -7,6 +7,7 @@
 class Empregado {
   protected:
     double salarioHora;
+    double horasT;
     double quotaMensalVendas;
     std::string nome;  
 
