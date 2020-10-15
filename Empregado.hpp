@@ -5,12 +5,12 @@
 #include <string>
 
 class Empregado {
-	
-  public:
-    double salarioHora;  
+  private:
+    double salarioHora;
     double quotaMensalVendas;
-    int teste;
 
+
+  public:
 
     double pagamentoMes(double horasTrabalhadas) {
  
