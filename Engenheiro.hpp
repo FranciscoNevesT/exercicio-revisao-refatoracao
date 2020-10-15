@@ -2,12 +2,14 @@
 #include "Empregado.hpp"
 
 class Engenheiro : public Empregado {
+  private:
+    std::string nome;  
+	  int projetos;
+
 
   public:
-    std::string nome;  
-	int projetos;
-
-    Engenheiro(nomeI,salarioI,projetoI);
+    Engenheiro(std::string nomeI, int projetosI, double salarioHoraI);
+    Engenheiro();
 	
 };
 
