@@ -1,11 +1,14 @@
+#ifndef ENGENHEIRO_H
+#define ENGENHEIRO_H
+
+
 #include <string>
 #include "Empregado.hpp"
 
 class Engenheiro : public Empregado {
-  private:
+  protected:
     std::string nome;  
 	  int projetos;
-
 
   public:
     Engenheiro(std::string nomeI, int projetosI, double salarioHoraI);
@@ -13,3 +16,5 @@ class Engenheiro : public Empregado {
 	
 };
 
+
+#endif

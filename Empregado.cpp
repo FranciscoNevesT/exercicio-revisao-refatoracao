@@ -2,7 +2,7 @@
 #include <string>
 #include "Empregado.hpp"
 
-Empregado::pagamentoMes(double horasTrabalhadas){     
+double Empregado::pagamentoMes(double horasTrabalhadas){     
       double t = horasTrabalhadas;
 	  
 	  //Cálculo de hora extra (+50% se horasTrabalhadas > 8)
